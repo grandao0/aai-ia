@@ -1,0 +1,27 @@
+{
+  "name": "chatterbot",
+  "description": "Atividade Autoinstrucional - Inteligência Artificial",
+  "main": "Server.js",
+  "authors": [
+    "Cassio Simoes",
+    "Vitor Iyomassa"
+  ],
+  "license": "ISC",
+  "homepage": "localhost:5004",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "bootstrap": "^3.3.7",
+    "toastr": "^2.1.3",
+    "jquery-confirm2": "^3.3.2",
+    "angular-md5": "^0.1.10",
+    "angular-sanitize": "^1.6.6"
+  }
+}

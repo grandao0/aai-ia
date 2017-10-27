@@ -1,0 +1,62 @@
+<div ng-init="Init()">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="panel panel-primary chat">
+					<div class="panel panel-heading">
+						<button class="btn btn-default" data-toggle="modal" data-target="#help">
+							<i class="glyphicon glyphicon-info-sign"></i>
+							Ajuda
+						</button>
+					</div>
+					<div class="panel panel-body chat-body" ngScrollBottom>
+						<div ng-class="{'alert alert-warning' : !message.robot, 'alert alert-info text-right' : message.robot}" role="alert" ng-repeat="message in messages">
+							<div class="row">
+								<div class="col-md-10">
+									<p ng-bind-html="message.message"></p>
+									<small>
+										<i ng-show="!message.robot" ng-class="{'glyphicon glyphicon-time' : !message.isSend, 'glyphicon glyphicon-ok' : message.isSend}"></i>
+										<span title="Data/Hora de Envio">{{ message.date | date:'dd/MM - HH:mm' }}</span>
+									</small>
+								</div>
+								<div class="col-md-2" ng-show="message.robot">
+									<img src="/img/dog.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-footer">
+						<textarea class="form-control" ng-model="message" rows="3" ng-enter="SendMessage()"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>		
+	</div>
+
+	<div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Ajuda</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Faça seu pedido</h4>
+					<p>Diga-nos o que deseja e o assistente virtual tentará lhe auxiliar da melhor forma possível.</p>
+					<br>
+					<h4>Erro</h4>
+					<p>As perguntas sem respostas são salvas no banco de dados e serão analisadas no futuro para constante melhoria do assistente virtual.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

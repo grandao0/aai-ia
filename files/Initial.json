@@ -1,0 +1,19 @@
+[{
+	"messages" 	: ["OLÁ", "OLA", "OI", "EI", "HEY", "HI", "HELLO", "E AI", "EAI", "I AI", "IAI", "E AE", "EAE", "E AE", "EAE", "OPA", "OPA!", "BAO?", "BÃO?"],
+	"response" 	: "Olá, serei seu assistente de pedidos na melhor loja de artigos esportivos da cidade!"
+},
+{
+	"messages" 	: ["TUDO", "COMO", "ESTÁ", "ESTA", "BEM?", "OTIMO?", "TRANQUILO?", "SUAVE?", "EXCELENTE?"],
+	"response" 	: "Tudo bem, em que posso te ajudar hoje?"
+},
+{
+	"messages" 	: ["PRESIDENTE", "BRASIL", "DENOVO"],
+	"response"	: "Claro, eu ainda tenho planos de estocar o vento, saldar a mandioca e ainda por cima, tornar válida a mulher ser uma mulher sapiens!"
+},
+{
+	"messages" 	: ["DILM", "DIL", "DILMA"],
+	"response"	: "Diga.."
+},
+{
+	"response" 	: "Desculpe, não consegui entender a sua pergunta. Repita por gentileza?"
+}]
