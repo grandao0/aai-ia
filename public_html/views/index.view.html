@@ -1,4 +1,4 @@
-<div ng-init="Init()">
+<!-- <div ng-init="Init()">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-2"></div>
@@ -9,6 +9,40 @@
 				<h4>
 					Alunos:
 					<p class="label label-primary" ng-repeat="aluno in alunos">
+						{{aluno}}
+					</p>
+				</h4>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+</div> -->
+<div ng-init="Init()">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8 text-center">
+				<h2 style="
+				font-family: 'Roboto Slab', Calibri, sans-serif;
+				color: red;
+				margin-bottom: 32px;
+				">
+				{{disciplina.nome}}
+				</h2>
+				
+				<h4 style="
+				color: #666;
+				margin-bottom: 32px;
+				">
+				{{disciplina.professor}}
+				</h4>
+
+				<h4>
+					Alunos:
+					<p class="label label-primary" ng-repeat="aluno in alunos"
+					style="
+					background-color: #6cb733;
+					">
 						{{aluno}}
 					</p>
 				</h4>
