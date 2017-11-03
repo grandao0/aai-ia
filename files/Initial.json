@@ -7,13 +7,5 @@
 	"response" 	: "Tudo bem, em que posso te ajudar hoje?"
 },
 {
-	"messages" 	: ["PRESIDENTE", "BRASIL", "DENOVO"],
-	"response"	: "Claro, eu ainda tenho planos de estocar o vento, saldar a mandioca e ainda por cima, tornar válida a mulher ser uma mulher sapiens!"
-},
-{
-	"messages" 	: ["DILM", "DIL", "DILMA"],
-	"response"	: "Diga.."
-},
-{
 	"response" 	: "Desculpe, não consegui entender a sua pergunta. Repita por gentileza?"
 }]
