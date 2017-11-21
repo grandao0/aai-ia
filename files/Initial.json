@@ -1,11 +1,51 @@
 [{
-	"messages" 	: ["OLÁ", "OLA", "OI", "EI", "HEY", "HI", "HELLO", "E AI", "EAI", "I AI", "IAI", "E AE", "EAE", "E AE", "EAE", "OPA", "OPA!", "BAO?", "BÃO?"],
+	"messages" 	: ["OLÁ", "OLA", "OLA!", "OLA!!", "OLA!!!", "OLA!!!!", "OLÁ!", "OLÁ!!", "OLÁ!!!", "OLÁ!!!!", "OI", "OI!", "OI!!", "OI!!!", "OI!!!!", "EI", "EI!", "EI!!", "EI!!!", "EI!!!!", "HEY", "HI", "HELLO", "E AI", "E AÍ", "EAI", "I AI", "IAI", "E AE", "E AÊ","EAE", "E AE", "EAE", "OPA", "OPA!", "BAO?", "BÃO?"],
 	"response" 	: "Olá, serei seu assistente de pedidos na melhor loja de artigos esportivos da cidade!"
 },
 {
-	"messages" 	: ["TUDO", "COMO", "ESTÁ", "ESTA", "BEM?", "OTIMO?", "TRANQUILO?", "SUAVE?", "EXCELENTE?"],
+	"messages" 	: ["TUDO", "COMO", "ESTÁ", "ESTÁ?", "ESTÁ??", "ESTA", "ESTA?", "ESTA??", "BEM", "BEM?", "BEM??", "OTIMO?", "ÓTIMO?", "ÓTIMO??", "TRANQUILO?", "SUAVE?", "EXCELENTE?"],
 	"response" 	: "Tudo bem, em que posso te ajudar hoje?"
 },
 {
-	"response" 	: "Desculpe, não consegui entender a sua pergunta. Repita por gentileza?"
+	"messages" 	: ["GOSTARIA DE COMPRAR UM", "GOSTARIA DE COMPRAR UMA", "GOSTARIA DE COMPRAR", "QUERO COMPRAR UM", "QUERO COMPRAR UMA", "QUERO COMPRAR", "VOCE TEM UM", "VOCÊ TEM UM", "VOCE TEM UMA", "VOCÊ TEM UMA", "TENIS", "TÊNIS", "TENIS DE CORRIDA", "TÊNIS DE CORRIDA", "TENIS DE BASQUETE", "TÊNIS DE BASQUETE", "TENIS DE HANDBALL", "TÊNIS DE HANDBALL", "SAPATO", "CHINELO", "SANDALIA", "SANDÁLIA", "PAPETE", "CROCS", "PANTUFA", "ROUPA", "CAMISA", "CAMISA DE FUTEBOL", "CAMISA DE VOLEI", "CAMISA DE BASQUETE", "CAMISETA", "BLUSA", "BLUSAS", "SAIA", "JAQUETA", "JAQUETAS", "REGATA", "CALCA", "CALÇA", "BERMUDA", "SHORT", "SHORT DE NATAÇÃO", "SHORT DE CORRIDA", "SHORT DE BASQUETE", "SHORT DE FUTEBOL", "VISEIRA", "CHAPEU", "CHAPÉU", "BONÉ", "BONE", "OCULOS", "ÓCULOS", "ÓCULOS ESCUROS", "OCULOS ESCUROS", "ÓCULOS DE SOL", "OCULOS DE SOL", "OCULOS DE NATACAO", "ÓCULOS DE NATACAO", "ÓCULOS DE NATAÇÃO", "SUNGA", "BIQUINI", "BIKINI", "MAIO", "MAIÔ", "TOUCA", "TOUCA DE NATAÇÃO", "BOLA", "BOLA DE FUTEBOL", "BOLA DE VOLEI", "BOLA DE VÔLEI", "BOLA DE BASQUETE", "BOLA DE TENIS", "BOLA DE TÊNIS", "BOLA DE PINGPONG", "BOLA DE PING-PONG", "BOLA DE PING PONG", "BOLINHA DE PINGPONG", "BOLINHA DE PING-PONG", "BOLINHA DE PING PONG", "CHUTEIRA", "CHUTEIRA DE FUTEBOL", "CHUTEIRA DE FUTSAL", "RAQUETE", "RAQUETE DE TENIS", "RAQUETE DE TÊNIS", "RAQUETE DE PING-PONG", "RAQUETE DE PING PONG", "RAQUETE DE PONG-PONG", "MOCHILA", "LUVA DE BOXE", "MEIA", "MEIAS", "PAR DE MEIA", "PAR DE MEIAS"],
+	"response"	: "Claro, eu preciso saber mais sobre isso! Qual marca você prefere?"
+},
+{
+	"messages" 	: ["NIKE", "ADIDAS", "PUMA", "OLYMPIKUS", "REEBOK", "FILA", "ASICS", "DIADORA", "LE COQ SPORTIF", "MIZUNO", "NEW BALANCE", "RAINHA", "TOPPER", "UMBRO", "UNDER ARMOR"],
+	"response"	: "Interessante.. qual a cor do produto você prefere?"
+},
+{
+	"messages" 	: ["AZUL", "BRANCO", "PRETO", "VERMELHO", "LARANJA", "AMARELO", "VERDE", "LILAS", "CINZA", "MARROM", "BONINA", "PRATA", "DOURADO"],
+	"response"	: "Muito bom... qual o tamanho você prefere?"
+},
+{
+	"messages" 	: ["PP", "P", "PEQUENO", "M", "MEDIO", "MÉDIO", "G", "GRANDE", "XG", "EXTRA GRANDE", "XXG", "ENORME", "XL"],
+	"response"	: "Ótimo.. você deseja algum outro produto (SIM / NÃO)?"
+},
+{
+	"messages" 	: ["SIM", "SIM!", "CLARO", "LOGICO", "OK"],
+	"response"	: "OK.. qual outro produto você deseja?"
+},
+{
+	"messages" 	: ["NAO", "NÃO", "N", "NAO!", "NUNCA", "JAMAIS"],
+	"response"	: "Entendo.. qual a forma de pagamento (DEBITO, CREDITO ou BOLETO)?"
+},
+{
+	"messages" 	: ["DEBITO", "CREDITO", "DÉBITO", "CRÉDITO"],
+	"response"	: "Digite o numero do cartão e o codigo de segurança sem espaços: "
+},
+{
+	"messages" 	: ["123456"],
+	"response"	: "Verificando com o banco... Pagamento concluído com sucesso! Obrigado por comprar conosco! Volte Sempre!"
+},
+{
+	"messages" 	: ["BOLETO"],
+	"response"	: "Anote o código de barras do seu boleto: 389 9 832 317 656. Obrigado por comprar conosco! Deseja continuar comprando?"
+},
+{
+	"messages" 	: ["OBRIGADO", "VALEU", "MUITO OBRIGADO", "GRATO", "AGRADECIDO", "TCHAU", "ATÉ", "ATÉ MAIS", "FALOU", "FLW"],
+	"response"	: "Agradecemos a preferência! Volte sempre!"
+},
+{
+	"response" 	: "Desculpe, não consegui entender. Repita por gentileza?"
 }]

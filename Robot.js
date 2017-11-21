@@ -29,7 +29,7 @@ var JsonFile = require('jsonfile');
 			}
 
 			for (var j = 0; j < messages.length; ++j) {
-				if (message.toUpperCase().indexOf(messages[j]) !== -1) {
+				if (message.toUpperCase() === messages[j]) {
 					return {
 						response: true,
 						message: initial[i].response
